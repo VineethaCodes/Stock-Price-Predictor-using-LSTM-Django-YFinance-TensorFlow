@@ -1,0 +1,38 @@
+# Stock Price Predictor
+
+A web-based application that predicts future stock prices using Long Short-Term Memory (LSTM) deep learning models. Built with Django for the backend, YFinance for data retrieval, and TensorFlow for model inference.
+
+---
+
+## 📌 Features
+
+- Fetches historical stock data using **YFinance**
+- Uses a pre-trained **LSTM model** to predict future prices
+- Interactive UI built with **HTML, CSS, Bootstrap**
+- Real-time stock price lookup using **Alpha Vantage API**
+- Dynamic Matplotlib charts rendered server-side
+- Form input for custom stock symbol and prediction days
+- Sample stock symbol table for quick testing
+
+---
+
+## 🛠 Technologies Used
+
+- **Frontend:** HTML, CSS, Bootstrap, JavaScript
+- **Backend:** Django (Python)
+- **ML Model:** LSTM (TensorFlow/Keras)
+- **Data Source:** YFinance, Alpha Vantage API
+- **Plotting:** Matplotlib
+- **Others:** NumPy, Pandas, Scikit-learn
+
+---
+
+## ⚙️ Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/VineethaCodes/Stock-Price-Predictor-using-LSTM-Django-YFinance-TensorFlow.git
+cd Stock-Price-Predictor-using-LSTM-Django-YFinance-TensorFlow
+# Stock-Price-Predictor-using-LSTM-Django-YFinance-TensorFlow
+A web-based stock prediction system built with Django that uses an LSTM (Long Short-Term Memory) deep learning model to forecast future stock prices. It fetches real-time and historical data via Yahoo Finance (yfinance), predicts future trends, and visualizes results using Matplotlib — all accessible through a simple user interface.
